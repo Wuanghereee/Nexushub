@@ -85,15 +85,15 @@ function Muxus(text)
 Muxus("<Color=Green>-Cảm Ơn Vì Đã Sử Dụng Script Của nexus-<Color=/>")
 Muxus("<Color=White>Script loading...<Color=/>")
 
-Muxus("<Color=Yellow>1<Color=/>")
+Muxus("<Color=Yellow>one<Color=/>")
 wait(1)
-Muxus("<Color=Yellow>2<Color=/>")
+Muxus("<Color=Yellow>tu<Color=/>")
 wait(1)
-Muxus("<Color=Yellow>3<Color=/>")
+Muxus("<Color=Yellow>tree<Color=/>")
 wait(1)
-Muxus("<Color=Yellow>4<Color=/>")
+Muxus("<Color=Yellow>phour<Color=/>")
 wait(1)
-Muxus("<Color=Red>5<Color=/>")
+Muxus("<Color=Red>fhai<Color=/>")
 wait(0.01)
 
 local Notif = {}
@@ -139,7 +139,7 @@ uilist_layout.Parent = frame
 function Notif.New(text, timee)
     local frame_2 = Instance.new("Frame")
     frame_2.BackgroundColor3 = Color3.new(1, 1, 1)
-    frame_2.BorderColor3 = Color3.new(0, 0, 0)
+    frame_2.BorderColor3 = Color3.new(1, 0, 0)
     frame_2.BorderSizePixel = 0
     frame_2.BackgroundTransparency = 1
     frame_2.Size = UDim2.new(0, 100, 0, 0)
@@ -464,7 +464,7 @@ function Update:Window(text,logo,keybind)
     Ping.Position = UDim2.new(0.28, 0,0.074, 0)
     Ping.Size = UDim2.new(0, 225, 0, 25)
     Ping.Font = Enum.Font.GothamSemibold
-    Ping.Text = "discord./9YhfVDRBw9                                        [RightControl]"
+    Ping.Text = "discord.gg/9YhfVDRBw9                                        [RightControl]"
     Ping.TextColor3 = Color3.fromRGB(255,255,255)
     Ping.TextSize = 13.500
     Ping.TextXAlignment = Enum.TextXAlignment.Left
@@ -474,7 +474,7 @@ function Update:Window(text,logo,keybind)
     local User = Instance.new("Frame")
     User.Name = "User"
     User.Parent = Top
-    User.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    User.BackgroundColor3 = Color3.fromRGB(255, 155, 255)
     User.BackgroundTransparency = 1.000
     User.Position = UDim2.new(0, 0,0, 25)
     User.Size = UDim2.new(0, 125, 0, 40)
@@ -482,7 +482,7 @@ function Update:Window(text,logo,keybind)
     local UserText = Instance.new("TextLabel")
     UserText.Name = "UserText"
     UserText.Parent = User
-    UserText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    UserText.BackgroundColor3 = Color3.fromRGB(115, 255, 251)
     UserText.BackgroundTransparency = 1.000
     UserText.Position = UDim2.new(0.3,7 ,0, -18)
     UserText.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -570,7 +570,7 @@ local Logo = Instance.new("ImageLabel")
     MainPage.Name = "MainPage"
     MainPage.Parent = Page
     MainPage.ClipsDescendants = true
-    MainPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    MainPage.BackgroundColor3 = Color3.fromRGB(155, 255, 255)
     MainPage.BackgroundTransparency = 1.000
     MainPage.Size = UDim2.new(0, 410, 0, 308)
 
@@ -3990,8 +3990,8 @@ spawn(function()
     while wait(.1) do
         if _G.FastAttackDelay then
             pcall(function()
-                if _G.FastAttackDelay == "0" then
-                    _G.FastAttackDelay = 0
+                if _G.FastAttackDelay == "0.0000000000001" then
+                    _G.FastAttackDelay = 0.00000000000001
                 elseif _G.FastAttackDelay == "0.1" then
                     _G.FastAttackDelay = 0.1
                 elseif _G.FastAttackDelay == "0.15" then
